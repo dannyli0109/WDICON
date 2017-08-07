@@ -6,6 +6,6 @@ class UsersController < ApplicationController
 
 
   def survey #Get signup form
-    render "getticket"
+    render "get_ticket"
   end
 end
