@@ -4,6 +4,10 @@ class PagesController < ApplicationController
     render :home #Page with 'get started' & 'login' buttons
   end
 
+   def show_login
+    render :login
+  end
+
 
   def login
     user = User.find_by( email: params[:email] )
