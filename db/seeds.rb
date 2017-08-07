@@ -9,7 +9,7 @@
 
 User.destroy_all
 newUser = User.new
-newUser.name_first = "David"
+newUser.name = "David"
 newUser.email = "davidmcdeavitt@gmail.com"
 newUser.password = "money"
 newUser.save
