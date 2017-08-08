@@ -1,5 +1,9 @@
 class PagesController < ApplicationController
 
+  def index
+
+  end
+  
   def home #Home page
     render :home #Page with 'get started' & 'login' buttons
   end
