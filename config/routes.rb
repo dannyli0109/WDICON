@@ -8,6 +8,10 @@ Rails.application.routes.draw do
   post '/login', to: 'pages#login' 
   delete '/login', to: 'pages#logout' 
 
+  get '/dashboard', to: 'pages#dashboard' 
+
   get '/api/users/current', to: 'api/users#current_user'
+
+  delete '/login', to: 'pages#home' #Clear the session out and go to login
   
 end
