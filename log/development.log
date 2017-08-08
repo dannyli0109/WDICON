@@ -295,3 +295,27 @@ FOREIGN KEY ("user_id")
   [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(3918867562582088970)[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 127.0.0.1 at 2017-08-08 17:48:02 +1000
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PagesController#home as HTML
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 408ms (Views: 395.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/api/users/current" for 127.0.0.1 at 2017-08-08 17:48:36 +1000
+  
+SyntaxError (/Users/davidmcdeavitt/WDI/wdicon/ICON/ICON/app/controllers/api/users_controller.rb:5: syntax error, unexpected ':', expecting =>
+        render json: {"name" : "David"}
+                              ^
+/Users/davidmcdeavitt/WDI/wdicon/ICON/ICON/app/controllers/api/users_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+ender json: {"name" : "David"}
+                              ^):
+  
+app/controllers/api/users_controller.rb:5: syntax error, unexpected ':', expecting =>
+app/controllers/api/users_controller.rb:5: syntax error, unexpected '}', expecting keyword_end
+Started GET "/api/users/current" for 127.0.0.1 at 2017-08-08 17:49:33 +1000
+Processing by Api::UsersController#current_user as HTML
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
