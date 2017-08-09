@@ -1,8 +1,8 @@
 class Api::UsersController < ApplicationController
     include UsersHelper
     def current_user
-        
-        render json: {"name": "David"}
+
+        render json: User.find(session[:user_id])
     end
 
 
