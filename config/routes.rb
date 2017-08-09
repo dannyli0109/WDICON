@@ -23,6 +23,8 @@ Rails.application.routes.draw do
 
   get '/api/users/current', to: 'api/users#current_user'
 
+  get '/api/users', to: 'api/users#user_by_name'
+
   # delete '/login', to: 'pages#home' #Clear the session out and go to login
 
 end
