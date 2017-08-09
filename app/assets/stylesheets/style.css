@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../assets/preloader.svg") no-repeat center center;
+  background: #fff url("/assets/preloader.svg") no-repeat center center;
 }
 
 /* Back to top button */
@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../assets/hero-mac-bg.jpg) top center fixed;
+  background: url("/assets/hero-mac-bg.jpg") top center fixed;
   background-size: cover;
 }
 
@@ -460,7 +460,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background: url(../assets/ga-logo.png) left top no-repeat;
+  background: url("/assets/ga-logo.png") left top no-repeat;
 }
 
 #about .about-content {
@@ -484,7 +484,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("/assets/services-bg.jpg") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
 }
@@ -534,7 +534,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Subscribe Section
 --------------------------------*/
 #subscribe {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/melbourne-bg.png) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/assets/melbourne-bg.png") fixed center center;
   background-size: cover;
   padding: 80px 0;
 }

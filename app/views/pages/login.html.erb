@@ -1,25 +1,23 @@
-<div>
   <div>
-    <div ></div>
     <div>
-      
+
       <form class="" action="/login" method="post">
         <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
         <div>
           <label for="text1">Email:</label>
           <input name="email" type="text" id="text1">
         </div>
-        <div 
-          <label for="text2">Password:</label>
-          <input name="password" type="password" id="text2">
-        </div>
-        <div>
-          <button >Log in</button>
-        </div>
-        <% if @error %>
-        <p><%= @error %></p>
-        <% end %>
-      </form>
-    </div>
-    
+        <div
+        <label for="text2">Password:</label>
+        <input name="password" type="password" id="text2">
+      </div>
+      <div>
+        <button >Log in</button>
+      </div>
+      <% if @error %>
+      <p><%= @error %></p>
+      <% end %>
+    </form>
+  </div>
+
 </div>

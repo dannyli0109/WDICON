@@ -13,4 +13,3 @@ newUser.name = "David"
 newUser.email = "davidmcdeavitt@gmail.com"
 newUser.password = "money"
 newUser.save
-user1_Id = newUser.id
